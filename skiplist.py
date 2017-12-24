@@ -4,8 +4,7 @@ import sys
 
 class Node(object):
 	def __init__(self):
-		self.left = 'left'
-		self.right = 'right'	
+		self.next = 'next'	
 		print 'init node'
 
 
