@@ -3,9 +3,19 @@ import sys
 
 
 class Node(object):
+	
 	def __init__(self):
 		self.next = 'next'	
 		print 'init node'
+
+
+class SkipList(object):
+	
+	def __init__(self):
+		self.root = Node()
+
+	def insert(node):
+		pass
 
 
 def main():
