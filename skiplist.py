@@ -6,7 +6,7 @@ class Node(object):
 	
 	def __init__(self):
 		self.next = 'next'	
-		print 'init node'
+		print('init node')
 
 
 class SkipList(object):
@@ -20,7 +20,7 @@ class SkipList(object):
 
 def main():
 	n = Node()
-	print 'end'
+	print('end')
 
 
 if __name__ == '__main__':
