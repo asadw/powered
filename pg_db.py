@@ -61,7 +61,7 @@ def current_time():
         cursor.execute('SELECT NOW();')
         results = cursor.fetchone()
         PG_POOL.putconn(conn)
-	return results[0]
+    return results[0]
 
 
 """
